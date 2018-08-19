@@ -7,6 +7,11 @@
     "wpackagist-plugin/jetpack": "^6.4",
     "webdevstudios/wd_s": "dev-master"
   },
+  "scripts": {
+    "post-install-cmd": [
+      "sh ./vendor/bin/wp-init"
+    ]
+  },
   "require-dev": {
     "jmichaelward/wp-setup": "^1.1",
     "wpackagist-plugin/query-monitor": "^3.1",
