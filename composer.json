@@ -8,7 +8,7 @@
     "webdevstudios/wd_s": "dev-master"
   },
   "scripts": {
-    "post-install-cmd": [
+    "post-update-cmd": [
       "sh ./vendor/bin/wp-init"
     ]
   },
