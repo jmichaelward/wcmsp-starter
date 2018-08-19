@@ -1,0 +1,20 @@
+{
+  "name": "jmichaelward/wcmsp-starter",
+  "description": "An example starter WordPress Composer metapackage for WordCamp Minneapolis-St. Paul",
+  "require": {
+    "wpackagist-plugin/advanced-custom-fields": "^5.7",
+    "wpackagist-plugin/gutenberg": "^3.6",
+    "wpackagist/jetpack": "^6.4",
+    "webdevstudios/wd_s": "^1.2"
+  },
+  "require-dev": {
+    "wpackagist/query-monitor": "^3.1",
+    "webdevstudios/wds-coding-standards": "^1.1"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ]
+}
