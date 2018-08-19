@@ -8,6 +8,7 @@
     "webdevstudios/wd_s": "^1.2"
   },
   "require-dev": {
+    "jmichaelward/wp-setup": "^1.1",
     "wpackagist/query-monitor": "^3.1",
     "webdevstudios/wds-coding-standards": "^1.1"
   },
